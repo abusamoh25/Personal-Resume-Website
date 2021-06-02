@@ -1,0 +1,125 @@
+﻿/* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
+for details on configuring this project to bundle and minify static web assets. */
+
+a.navbar-brand {
+  white-space: normal;
+  text-align: left;
+  word-break: break-all;
+  color: rgb(0, 0, 0);
+}
+
+/* Provide sufficient contrast against white background */
+a {
+  color: #1d7ce7;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+.container {
+
+  margin-right: 0px;
+  margin-left: 0px;
+  max-width: inherit;
+  padding-left: 0px;
+  padding-right: 0px;
+
+}
+
+.nav-link {
+  color:rgb(0, 0, 0)
+}
+
+.navbar {
+  background-color: #ffffff;
+  /* color: white; */
+}
+
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+.spec {
+  color: rgb(255, 0, 0);
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  font-size: 14px;
+}
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.border-top {
+  border-top: 1px solid #e5e5e5;
+}
+.border-bottom {
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.box-shadow {
+  box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+
+button.accept-policy {
+  font-size: 1rem;
+  line-height: inherit;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+  
+}
+
+body {
+  /* Margin bottom by footer height */
+  background-color: #2D2D2A;
+  margin-bottom: 60px;
+}
+
+.footer {
+  background-color: #ffffff;
+  bottom: 0;
+  height: 65px;
+  line-height: 60px; /* Vertically center the text there */
+  padding-left: 5rem;
+  padding-top: .5rem;
+  position: fixed;
+  width: 100%;
+  white-space: nowrap;
+  
+}
+
+.intro {
+  
+  background-size: 50rem;
+  position: relative;
+  color: rgb(255, 255, 255);
+  /* left: 0rem;
+  padding: 0 20rem */
+
+}
+
+.proj {
+  color:  white;
+}
+
+.projects {
+  width: 100%;
+  margin: 0; 
+  background-color: white;
+  /* position: relative; */
+  
+}
